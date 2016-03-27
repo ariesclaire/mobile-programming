@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/none"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/mon"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MON" />
+
+            <TextView
+                android:id="@+id/tue"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TUE" />
+
+            <TextView
+                android:id="@+id/wed"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="WED" />
+
+            <TextView
+                android:id="@+id/thu"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="THU" />
+
+            <TextView
+                android:id="@+id/fri"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="FRI" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/mon1"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue1"
+                android:layout_weight="1"
+                android:background="#FFC19E"
+                android:gravity="center"
+                android:text="건축\n304" />
+
+            <TextView
+                android:id="@+id/wed1"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu1"
+                android:layout_weight="1"
+                android:background="#CEF279"
+                android:gravity="center"
+                android:text="멀미\n305" />
+
+            <TextView
+                android:id="@+id/fri1"
+                android:layout_weight="1"
+                android:background="#B2EBF4"
+                android:gravity="center"
+                android:text="데마\n412" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/mon2"
+                android:layout_weight="1"
+                android:background="#FAED7D"
+                android:gravity="center"
+                android:text="모바일\n412" />
+
+            <TextView
+                android:id="@+id/tue2"
+                android:layout_weight="1"
+                android:background="#FFC19E"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed2"
+                android:layout_weight="1"
+                android:background="#FAED7D"
+                android:gravity="center"
+                android:text="모바일\n412" />
+
+            <TextView
+                android:id="@+id/thu2"
+                android:layout_weight="1"
+                android:background="#CEF279"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri2"
+                android:layout_weight="1"
+                android:background="#B2EBF4"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="11" />
+
+            <TextView
+                android:id="@+id/mon3"
+                android:layout_weight="1"
+                android:background="#FAED7D"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue3"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed3"
+                android:layout_weight="1"
+                android:background="#FAED7D"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu3"
+                android:layout_weight="1"
+                android:background="#CEF279"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri3"
+                android:layout_weight="1"
+                android:background="#B2EBF4"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time4"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/mon4"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue4"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed4"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu4"
+                android:layout_weight="1"
+                android:background="#CEF279"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri4"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time5"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/mon5"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue5"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed5"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu5"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri5"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time6"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/mon6"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue6"
+                android:layout_weight="1"
+                android:background="#D1B2FF"
+                android:gravity="center"
+                android:text="OS\n413" />
+
+            <TextView
+                android:id="@+id/wed6"
+                android:layout_weight="1"
+                android:background="#D5D5D5"
+                android:gravity="center"
+                android:text="기경\n601" />
+
+            <TextView
+                android:id="@+id/thu6"
+                android:layout_weight="1"
+                android:background="#D1B2FF"
+                android:gravity="center"
+                android:text="OS\n413" />
+
+            <TextView
+                android:id="@+id/fri6"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time7"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/mon7"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue7"
+                android:layout_weight="1"
+                android:background="#D1B2FF"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed7"
+                android:layout_weight="1"
+                android:background="#D5D5D5"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu7"
+                android:layout_weight="1"
+                android:background="#D1B2FF"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri7"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time8"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/mon8"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue8"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed8"
+                android:layout_weight="1"
+                android:background="#D5D5D5"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu8"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri8"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time9"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/mon9"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue9"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed9"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/thu9"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri9"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/time10"
+                android:layout_weight="1"
+                android:gravity="top|right"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/mon10"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/tue10"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/wed10"
+                android:layout_weight="1"
+                android:background="#FFA7A7"
+                android:gravity="center"
+                android:text="졸작\n305" />
+
+            <TextView
+                android:id="@+id/thu10"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <TextView
+                android:id="@+id/fri10"
+                android:layout_weight="1"
+                android:text="\n" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
