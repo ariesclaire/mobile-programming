@@ -1,0 +1,90 @@
+<html>
+<table width="100%"
+        cellpadding="10dp">
+    <tr>
+        <td><input type="button" value="1"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('1')"
+                /></td>
+        <td><input type="button"value="2"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('2')"
+                /></td>
+        <td><input type="button" value="3"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('3')"
+                /></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('4')"
+                /></td>
+        <td><input type="button" value="5"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('5')"
+                /></td>
+        <td><input type="button" value="6"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('6')"
+                /></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('7')"
+                /></td>
+        <td><input type="button" value="8"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('8')"
+                /></td>
+        <td><input type="button" value="9"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('9')"
+                /></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="*"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('*')"
+                /></td>
+        <td><input type="button" value="0"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('0')"
+                /></td>
+        <td><input type="button" value="#"
+                   style="font-size:40pt;width:60pt"
+                   onclick="updateAndroid('#')"
+                /></td>
+    </tr>
+</table>
+<input type="text"
+       value="Mobile Number"
+        style="width:90pt"
+        readonly/>
+<input type="text"
+        id="number"/>
+<br/>
+<input type="text"
+        placeholder="Message"
+        style="width:230pt;height:40pt;
+        margin-top:10pt"
+       id="msg"
+        />
+<br/>
+<input type="button"
+       value="Submit"
+       style="float:right;margin:5pt"
+        onclick="sendAndroid()"/>
+
+<script type="text/javascript">
+    function updateAndroid(num) {
+    document.getElementById("number").value = Android.update(num);
+    }
+    function sendAndroid() {
+    var number = document.getElementById("number").value;
+    var msg = document.getElementById("msg").value;
+    Android.send(number, msg);
+    }
+</script>
+</html>
